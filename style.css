@@ -679,6 +679,10 @@ a {
 p {
     font-size: 11px;
 }
+.quote p{
+    font-size: 19px;
+    font-style: italic; 
+}
 
 .tight-width-whitespace {
     max-width: 600px;
