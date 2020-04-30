@@ -1,0 +1,28 @@
+.footer{
+    background-color: $bg-primary;
+    p{
+        text-align: center;
+        color: $color-secondary;
+    }
+    &__social {
+        max-width: 600px;
+        padding: 0;
+        margin: 2rem auto;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        .icon-md {
+            font-size: 30px!important;
+            transition: all 200ms;
+            &:hover{
+                transform: scale(1.15);
+            }
+        }
+    }
+    article{
+        @media (max-width: 767px) {
+            margin-left: 1rem;
+        }
+    }
+}
+

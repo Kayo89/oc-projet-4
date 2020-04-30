@@ -883,10 +883,6 @@ h4 {
         background-attachment: scroll;
     }
     .page-container,
-    #hero-bloc {
-        overflow-x: hidden;
-        position: relative;
-    }
     .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
@@ -956,12 +952,6 @@ h4 {
         border-bottom-color: transparent;
         border-right-color: transparent;
         border-left-color: transparent;
-    }
-    #hero-bloc .navbar .nav {
-        background: rgba(0, 0, 0, .8);
-    }
-    #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
     }
     .hero {
         padding: 50px 0;

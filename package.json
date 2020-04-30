@@ -1,0 +1,19 @@
+{
+  "name": "la-chouette-agence",
+  "version": "1.0.0",
+  "description": "Agence de Web Design à Lyon",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kayo89/oc-projet-4.git"
+  },
+  "author": "Cabon Kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kayo89/oc-projet-4/issues"
+  },
+  "homepage": "https://github.com/Kayo89/oc-projet-4#readme"
+}

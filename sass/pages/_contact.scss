@@ -1,0 +1,25 @@
+.mg-lg {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.contact{
+    &__header{
+        text-align: center;
+        h1,p{
+            color: $color-secondary;
+        }
+    }
+    &__form{
+        form {
+            @media (max-width: 767px) {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.form-control {
+    border-color: rgba(0, 0, 0, .1);
+    box-shadow: none;
+}
