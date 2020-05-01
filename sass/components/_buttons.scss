@@ -21,7 +21,7 @@ button {
     &-atomic-tangerine {
         background: $bg-primary;
         &:hover{
-            background: $bg-primary-hover;
+            background: darken($bg-primary, 10%);
             color: $color-secondary;
     
         }
