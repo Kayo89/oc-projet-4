@@ -140,9 +140,10 @@
     @media (max-width: 767px) {
         margin-top: 5px;
     }
-    &-md{
+    &-sm{
+        margin-top: 20px;
         @media (max-width: 767px) {
-            margin-top: 20px;
+            margin-top: 10px;
         }
     }
     &-lg{
