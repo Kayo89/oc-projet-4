@@ -13,6 +13,7 @@
   },
   "author": "Cabon Kevin",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/Kayo89/oc-projet-4/issues"
   },
